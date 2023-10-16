@@ -1,8 +1,8 @@
 public class Animal {
 
     String family, name;
-    int age;
-    boolean isMammal;
+    protected int age;
+     boolean isMammal;
 
     public Animal() {
 
@@ -14,7 +14,10 @@ public class Animal {
         this.age = age;
         this.isMammal = isMammal;
     }
-
+    public void setAge(int age) {
+        if (age >0)
+            this.age=age;
+    }
     @Override
     public String toString() {
         return "Animal{" +
