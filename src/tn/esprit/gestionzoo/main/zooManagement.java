@@ -6,13 +6,13 @@ public class zooManagement {
 
     public static void main(String[] args) {
         Animal lion = new Animal();
-        lion.setName("Simba");
+        lion.setName("Momo");
         lion.setAge(8);
         lion.setFamily("Cats");
         lion.setMammal(true);
 
-        Zoo myZoo = new Zoo("Wildlife Park", "Ariana");
-        Zoo notMyZoo = new Zoo("WaterPark", "Siliana");
+        Zoo myZoo = new Zoo("Wild Park", "La marsa");
+        Zoo notMyZoo = new Zoo("Aqua Park ", "Tunis");
 
 
         Animal dog = new Animal("Canine", "Snoopy", 2, true);
@@ -60,6 +60,7 @@ public class zooManagement {
         aquatic.swim();
         dolphin.swim();
         penguin.swim();
+
 
     }
 
